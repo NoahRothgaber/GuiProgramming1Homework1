@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+Noah Rothgaber
+9/5/24
+This is a simple About Me webpage with links to my drum performances, GitHub projects, and articles I am featured in.
+
+Sources:
+https://icolorpalette.com/color/c65102 Link for the colors I used
+https://www.w3schools.com/css/css_text_align.asp Text alignment
+https://www.w3schools.com/html/html_links.asp Link source
+https://www.reddit.com/r/coolguides/comments/o7u9e2/a_much_better_guide_to_how_readable_colored_texts/#lightbox Readable color text
+https://www.w3schools.com/tags/tag_figcaption.asp Caption for images
+https://www.w3schools.com/cssref/pr_font_font-style.php Fonts
+https://www.tutorialspoint.com/html/html_backgrounds.htm Backgrounds
+https://www.w3schools.com/htmL/html_links_colors.asp Link colors
+https://www.w3schools.com/tags/tag_comment.asp Comments
+https://www.buildableweb.com/how-to-add-page-breaks-to-html-in-articles Page breaks
+-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Noah's About Me!</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<!--Every section on the page has an associated table.-->
+
+<body class="body">
+    <!--Begin Intro Section-->
+    <h1 class="page_title">Noah Rothgaber's About Me</h1>
+    <p class="intro_paragraph">Hi! My name is Noah Rothgaber. I'm 25 and a Computer Science senior (I think) here at the
+        University of Massachusetts Lowell. I am from Salem, NH, and transferred here from Northern Essex Community
+        College. I am a musician (drums), a robotics research assistant at the NERVE Center in Lowell, and a dad to two
+        crazy pups and a number of other pets.
+    </p>
+    <hr>
+    <figure class="caption_and_image">
+        <img src="images/brookeandthepups.jpg"
+            alt="A picture of me, my fiancée Brooke, and our two pups Peekee (right) and Ted (left)." height="300">
+        <figcaption class="image_description">A picture of me, my fiancée Brooke, and our two pups Peekee (right) and
+            Ted (left).</figcaption>
+    </figure>
+    <p class="about_me_intro">
+        The following website will display a number of projects and clips of past performances of mine.
+    </p>
+    <!--End Intro Section-->
+    <hr>
+    <!--Begin Navigation Section-->
+    <h2 class="about_me_title">About Me Page Directory</h2>
+    <table class="main_table">
+        <tr>
+            <th class="link_header"> Page Name </th>
+            <th class="link_header"> Description </th>
+            <th class="link_header"> Link </th>
+        </tr>
+        <tr>
+            <td class="link_name"> Drums </td>
+            <td class="link_description"> A collection of links to some clips of my drumming.</td>
+            <td class="link_name">
+                <a href="#drum_links_page">Drumming Page</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="link_name"> Personal Projects on GitHub</td>
+            <td class="link_description"> Some of the stuff I completed on my personal GitHub.</td>
+            <td class="link_name">
+                <a href="#github_links_page">GitHub Projects</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="link_name">Articles I'm mentioned in!</td>
+            <td class="link_description">These are some articles I found my way into during my school journey.</td>
+            <td class="link_name"><a href="#article_links_page">Articles Page</a></td>
+        </tr>
+    </table>
+    <!--End Navigation Section-->
+    <hr>
+    <!--Begin Drumming Section-->
+    <h2 class="page_title" id="drum_links_page">Drumming Page</h2>
+    <p class="intro_paragraph">
+        A huge passion of mine since the very beginning has been music. I have been playing drums since I was 8 years
+        old and am thankful to have had the opportunity to play with hundreds of different musicians across the southern
+        New Hampshire area.
+    </p>
+    <p class="intro_paragraph">
+        I have played in a number of original bands, such as the local-to-Lowell band Out Of Water, as
+        well as a professional Led Zeppelin tribute band called Four Symbols. Apart from that, I play in the graduation
+        band at Northern Essex Community College and was a member of my middle school's jazz band. I was also featured
+        in a
+        number of single-song performances for Mojo's Music in Salem, New Hampshire, and the Music Workshop (now
+        closed), also
+        in Salem.
+    </p>
+    <p class="intro_paragraph">Below are a few links to clips of me playing at different points in my life.</p>
+    <hr>
+    <h3 class="about_me_title">Performances</h3>
+    <table class="main_table">
+        <tr>
+            <td class="link_name">Affirmation by George Benson - Performance for my Associate Degree Graduation in
+                Information Technology at NECC - 2022</td>
+            <td class="link_description">I play at the NECC graduation every year as the closer to the commencement
+                ceremony. I have some of the most fun playing with the graduates who are saying goodbye to NECC, and I'm
+                glad I can do my part to make their graduation performance "solid".</td>
+            <td class="link_name"><a href="https://drive.google.com/file/d/18W4da3YJjSQZZu-iDAUzDfMnF6pWALuf/view"
+                    target="_blank">Drive Link</a>
+        </tr>
+        <tr>
+            <td class="link_name">Foreplay/Longtime by Boston - Performance for Music Workshop, Salem - 2015</td>
+            <td class="performance_description">This performance was basically my senior piece at the Music Workshop. I
+                stopped taking lessons around the end of that year, and it's the performance there I am most proud of.
+                This
+                performance also featured my dad on the keys! A legend.</td>
+            <td class="link_name"><a href="https://www.youtube.com/watch?v=GxZsWYV2LPg" target="_blank">YouTube Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="link_name">Rock and Roll by Led Zeppelin - Performance at Olympia in Lowell, MA - 2024</td>
+            <td class="performance_description">This performance was the most recent one I played in with my Zeppelin
+                group. We played a
+                1-to-1 cover of the 1976 Led Zeppelin live album from Madison Square Garden in 1973. This is probably
+                the hardest collection of music I have ever had to play. I am taking a break for the remainder of my
+                schooling but hope to get back to it after I graduate.</td>
+            <td class="link_name"><a href="https://www.facebook.com/carmen.iuvara.92/videos/1393463614627828/"
+                    target="_blank">Facebook Link</a>
+            </td>
+        </tr>
+    </table>
+    <!--End Drumming Section-->
+    <!--Begin GitHub Project Section-->
+    <h2 class="page_title" id="github_links_page">GitHub Project Page</h2>
+    <p class="intro_paragraph">
+        I got into programming kind of late in my education. After getting my HiSET (GED) diploma, I initially opted to
+        go into Information Technology as my major. I knew I liked computers, but the first person I spoke to at my
+        school asked me, "Okay, you like computers. Well... do you like math?" Of course, I answered how any person who
+        didn't finish high school would answer that question: "NO!" This person ruled out Computer Science for me and
+        sent me on a path toward IT.
+    </p>
+    <p class="intro_paragraph">
+        While on this IT path, I had to take a required programming class for Python.
+        Right there, in what seemed on the surface to be a huge pain of a class, my love for programming was sparked,
+        which led me to where I am today!
+    </p>
+    <p class="intro_paragraph">
+        Below are some of the projects I am proud of. The primary languages I use are Python, Bash, and Arduino C as of
+        now.
+    </p>
+    <hr>
+    <h3 class="about_me_title">Projects</h3>
+    <table class="main_table">
+        <tr>
+            <td class="link_name">Welcome Terminal in Python</td>
+            <td class="link_description">This program was developed to greet me when I turn on my Linux machine with the
+                weather of my area and a dad joke. It stores a list of greetings (good and bad) to
+                ensure a unique greeting every day of the year!</td>
+            <td class="link_name"><a href="https://github.com/NoahRothgaber/welcome_terminal_python"
+                    target="_blank">GitHub Link</a>
+        </tr>
+        <tr>
+            <td class="link_name">Shortcut Manager in Java</td>
+            <td class="performance_description">
+                I made this project to help me save time with my schoolwork. At the time, I was taking a Data
+                Structures class in Java and my first C++ course, so this tool could open a templated Word document or
+                any of the IDEs I was using at the time. It also features a poorly constructed GUI in Java Swing, which
+                shows why I need this class ASAP!
+            </td>
+            <td class="link_name"><a href="https://github.com/NoahRothgaber/NoahRShortcutManager" target="_blank">GitHub
+                    Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="link_name">Star Blasters in Python</td>
+            <td class="performance_description">
+                This was the culmination of all my newly found passion for programming from that infamous
+                "Programming for IT" class. I
+                spent hours on this project before the class even started. I told myself I'd do everything I could to
+                get a good grade for that class, and I knew the final was a "Show me what you know" style assignment. I
+                was beyond proud of how it came out at the time, but I hope my current code shows just how far I've come
+                since then.
+            </td>
+            <td class="link_name"><a href="https://github.com/NoahRothgaber/NoahRPythonStarBlasters"
+                    target="_blank">GitHub Link</a>
+            </td>
+        </tr>
+    </table>
+    <!--End GitHub Project Section-->
+    <!-- Begin Article Section-->
+    <h2 class="page_title" id="article_links_page">Articles Page</h2>
+    <p class="intro_paragraph">
+        As I went through Northern Essex Community College and during my time at the NERVE Center in Lowell, I've been
+        featured in a few articles!
+    </p>
+    <p class="intro_paragraph">
+        Some articles from NECC are about my academic accomplishments, while others were for some of my work with the
+        NECC
+        music department as a non-music major.
+    </p>
+    <p class="intro_paragraph">
+        I feature two from NECC, and the last one is from the summer camp for middle schoolers, hosted by the NERVE
+        Center,
+        showcasing how fun robots can be!
+    </p>
+    <hr>
+    <h3 class="about_me_title">Articles Featuring Me!</h3>
+    <table class="main_table">
+        <tr>
+            <td class="link_name">He Started without a High School GPA, Now Has Two Degrees from NECC</td>
+            <td class="link_description">This article was written per request from a number of my instructors to detail
+                my academic journey through NECC. I dropped out of high school in freshman year due to illness, and was
+                able to climb all the way up to two associate degrees and further.</td>
+            <td class="link_name"><a
+                    href="https://www.necc.mass.edu/newsroom/2023/05/19/from-no-high-school-gpa-to-two-degrees-from-necc/"
+                    target="_blank">NECC Newsroom Link</a>
+        </tr>
+        <tr>
+            <td class="link_name">Middle Schoolers Explore Robotics at NERVE Center</td>
+            <td class="performance_description">
+                My supervisor Janelle Clark asked me to assist her and Professor Maru Cabrera with a summer camp
+                focused on showing off the great world of robotics. Students got to build a gripper, experiment with
+                sensors, create silicone gripper fingers, and drive around Turtlebots.
+            </td>
+            <td class="link_name"><a href="https://www.uml.edu/news/stories/2024/roboxploration-summer-camp.aspx"
+                    target="_blank">UML News Link</a>
+            </td>
+        </tr>
+        <tr>
+            <td class="link_name">Battle of the Band Goes Off Without a Hitch</td>
+            <td class="performance_description">
+                My Led Zeppelin tribute band competed in the first ever NECC Battle of the Bands. We didn't win... but
+                we were able to put on a heck of a performance! I was interviewed briefly for this article.
+            </td>
+            <td class="link_name"><a
+                    href="https://observer.necc.mass.edu/blog/2023/04/28/battle-of-the-band-goes-off-without-a-hitch"
+                    target="_blank">NECC Observer Link</a>
+            </td>
+        </tr>
+    </table>
+    <!-- End Article Section -->
+</body>
+<!-- End Document-->
+
+</html>
