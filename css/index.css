@@ -1,0 +1,75 @@
+/*<!--I tried to make this file self commenting with the name of my classes-->*/
+.page_title {
+    color: #ea5f02;
+    text-align: center
+}
+
+.intro_paragraph {
+    color: #feeee2
+}
+
+.image_description {
+    color: #feeee2;
+    font-style: italic;
+    height: 70px
+}
+
+.link_name {
+    color: white;
+    width: 30%;
+    height: 100px;
+}
+
+.link_header {
+    color: #fedac2;
+    width: 30%;
+    height: 50px;
+}
+
+.link_description {
+    width: 30%;
+    height: 100px;
+    font-style: italic;
+    color: #feeee2
+}
+
+.performance_description {
+    width: 30%;
+    height: 300px;
+    font-style: italic;
+    color: #feeee2
+}
+
+
+.main_table {
+    text-align: center;
+    page-break-after: always;
+}
+
+.about_me_intro {
+    text-align: left;
+    height: 50px;
+    color: #fdae79
+}
+
+.about_me_title {
+    text-align: center;
+    height: 5px;
+    color: #fdae79
+}
+
+.body {
+    background-color: #080300;
+}
+
+a:link {
+    color: orange
+}
+
+a:visited {
+    color: #fdbd91
+}
+
+.caption_and_image {
+    height: 350px;
+}
